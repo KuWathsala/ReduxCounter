@@ -4,7 +4,7 @@ import {connect} from 'react-redux';
 import {increase, decrease} from '../Redux/Actions/counterAction';
 
 class Counter extends React.Component{
-
+    
     constructor(props){
         super(props);
         console.log(this.props.counter);
